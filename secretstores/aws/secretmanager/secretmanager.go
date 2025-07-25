@@ -17,9 +17,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"reflect"
+
 	awsCommon "github.com/dapr/components-contrib/common/aws"
 	awsCommonAuth "github.com/dapr/components-contrib/common/aws/auth"
-	"reflect"
 
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 
